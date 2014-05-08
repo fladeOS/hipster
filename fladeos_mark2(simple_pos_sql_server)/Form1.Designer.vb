@@ -65,7 +65,7 @@ Partial Class Form1
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(543, 258)
+        Me.Panel1.Size = New System.Drawing.Size(591, 410)
         Me.Panel1.TabIndex = 0
         '
         'SplitContainer1
@@ -83,7 +83,7 @@ Partial Class Form1
         'SplitContainer1.Panel2
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.Panel3)
-        Me.SplitContainer1.Size = New System.Drawing.Size(543, 234)
+        Me.SplitContainer1.Size = New System.Drawing.Size(591, 386)
         Me.SplitContainer1.SplitterDistance = 192
         Me.SplitContainer1.TabIndex = 1
         '
@@ -103,7 +103,7 @@ Partial Class Form1
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(192, 234)
+        Me.Panel2.Size = New System.Drawing.Size(192, 386)
         Me.Panel2.TabIndex = 0
         '
         'btnDelete
@@ -204,14 +204,14 @@ Partial Class Form1
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(347, 234)
+        Me.Panel3.Size = New System.Drawing.Size(395, 386)
         Me.Panel3.TabIndex = 0
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Lato Black", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(130, 190)
+        Me.Label7.Location = New System.Drawing.Point(126, 339)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(69, 29)
         Me.Label7.TabIndex = 9
@@ -220,9 +220,9 @@ Partial Class Form1
         'tbTotal
         '
         Me.tbTotal.Font = New System.Drawing.Font("Lucida Fax", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbTotal.Location = New System.Drawing.Point(204, 187)
+        Me.tbTotal.Location = New System.Drawing.Point(193, 338)
         Me.tbTotal.Name = "tbTotal"
-        Me.tbTotal.Size = New System.Drawing.Size(130, 36)
+        Me.tbTotal.Size = New System.Drawing.Size(185, 36)
         Me.tbTotal.TabIndex = 11
         '
         'Label6
@@ -251,7 +251,7 @@ Partial Class Form1
         Me.dtg1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtg1.Location = New System.Drawing.Point(3, 31)
         Me.dtg1.Name = "dtg1"
-        Me.dtg1.Size = New System.Drawing.Size(331, 149)
+        Me.dtg1.Size = New System.Drawing.Size(375, 301)
         Me.dtg1.TabIndex = 0
         '
         'MenuStrip1
@@ -259,7 +259,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(543, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(591, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -292,7 +292,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(543, 258)
+        Me.ClientSize = New System.Drawing.Size(591, 410)
         Me.Controls.Add(Me.Panel1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"

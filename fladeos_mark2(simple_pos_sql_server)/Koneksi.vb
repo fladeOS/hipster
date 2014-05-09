@@ -56,6 +56,15 @@ Namespace DB
         End Sub
 
         Public Sub InsertTransaction()
+            'Buat sebuah proses untuk mengambil jumlah baris dalam tabel report
+            Dim getRowQuery = "select kasir from tb_report"
+            cmd = New SqlClient.SqlCommand(getRowQuery, conn)
+            rd = cmd.ExecuteReader()
+            rd.Read()
+            Dim ad As String = rd(0)
+            MessageBox.Show(ad.ToString())
+            rd.Close()
+
             Dim myQuery As String = "insert into dbo.tb_transaksi values ('" & Form1.itemName & "', '" & Form1.quantity & "', '" & Form1.price & "', '" & Form1.count & "', '" & "')"
             cmd = New SqlClient.SqlCommand(myQuery, conn)
             cmd.ExecuteNonQuery()
